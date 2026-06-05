@@ -510,6 +510,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     resumeId: Schema.Attribute.String;
     skills: Schema.Attribute.JSON;
     summery: Schema.Attribute.Text;
+    themeColor: Schema.Attribute.String;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

@@ -55,6 +55,9 @@
     },
     "Projects": {
       "type": "json"
+    },
+    "themeColor": {
+      "type": "string"
     }
   }
 }
